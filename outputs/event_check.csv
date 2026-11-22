@@ -1,0 +1,3 @@
+check,matched,total,share
+official log failures matched by an event (recall),2298,2509,0.916
+events since log start matched by a log entry (precision),2030,9072,0.224

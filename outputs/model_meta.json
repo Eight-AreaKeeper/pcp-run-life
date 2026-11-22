@@ -1,0 +1,16 @@
+{
+  "split_date": "2025-01-01",
+  "horizon_days": 90,
+  "features": [
+    "rpm",
+    "water_cut",
+    "oil_rate",
+    "n_fail_365",
+    "prev_run_days",
+    "repair_type"
+  ],
+  "train_runs": 6807,
+  "test_runs": 3402,
+  "train_failures": 6599,
+  "test_failures": 2596
+}

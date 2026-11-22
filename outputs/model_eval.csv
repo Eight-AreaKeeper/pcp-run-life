@@ -1,0 +1,4 @@
+model,c_index,auc_90d,brier_90d,top50_flagged,top50_failed_within_90d,first_run_fail_rate_90d,test_runs,test_runs_with_known_90d_outcome
+cox_model,0.6439,0.7216,0.2072,50.0,38.0,0.4321,3402,3053
+simple_rule_past_year_failures,0.6043,0.6603,,50.0,35.0,0.4321,3402,3053
+kaplan_meier_same_for_all,0.5,0.5,0.2425,,,0.4321,3402,3053

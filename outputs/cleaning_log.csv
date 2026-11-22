@@ -1,0 +1,9 @@
+step,table,rows_before,rows_after_or_affected
+keep heavy-oil producers,daily_production,5075590,3150025
+drop duplicate well-days,daily_production,3150025,3149998
+rpm < 0 or > 1000 set to missing,daily_production,3149998,11
+negative oil set to missing,daily_production,3149998,3282
+negative water set to missing,daily_production,3149998,8946
+downhole days found,daily_production,3149998,114986
+failure events (downhole days merged),events,114986,10393
+runs built,runs,10393,10209

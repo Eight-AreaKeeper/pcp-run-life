@@ -1,0 +1,19 @@
+# raw competition data: may not be redistributed
+data/
+*.parquet
+
+# well-level outputs (contain UWIs): never public
+outputs/wells/
+*.pkl
+
+# python / IDE
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
